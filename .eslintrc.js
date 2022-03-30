@@ -15,5 +15,12 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:vue/vue3-recommended'
+  ],
+  rules: [
+    {
+      "vue/first-attribute-linebreak": ["error", {
+        "multiline": "beside"
+      }]
+    }
   ]
 }
