@@ -1995,6 +1995,11 @@ vue-tsc@^0.30.0:
     "@volar/shared" "0.30.0"
     vscode-vue-languageservice "0.30.0"
 
+vue3-carousel@^0.1.38:
+  version "0.1.38"
+  resolved "https://registry.yarnpkg.com/vue3-carousel/-/vue3-carousel-0.1.38.tgz#dbd832ef7eb936d1e699cabc83d34472787174f2"
+  integrity sha512-mTWvlyFIu2QqnMbHiphdJWKRBaPHG8oXr5fcRWjvnPwcQ3XCpI9/FLDI/l1vVBCs13hBSuKp/kYleuxs2WOoKA==
+
 vue@^3.2.26:
   version "3.2.26"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.26.tgz#5db575583ecae495c7caa5c12fd590dffcbb763e"

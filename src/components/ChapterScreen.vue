@@ -1,19 +1,19 @@
 <template>
   <div class="chapter-screen-wrapper"
        :id="chapterId">
-    <section class="section">
-      <h1>{{ chapterTitle }}</h1>
-      <p>{{ chapterText }}</p>
-    </section>
+    <slot name="content">
+
+    </slot>
   </div>
 </template>
 
 <script setup lang="ts">
 const props = defineProps({
-  chapterTitle: String,
-  chapterText: String,
-  chapterId: String
+  chapterId: String,
+  backgroundColor: String
 });
+
+// const backgroundColor = 'red';
 
 </script>
 
@@ -21,12 +21,14 @@ const props = defineProps({
 
 .chapter-screen-wrapper {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: center;
+  flex-direction: column;
+
+  background-color: v-bind(backgroundColor);
 }
 
 </style>
