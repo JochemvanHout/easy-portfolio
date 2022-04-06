@@ -1,1 +1,3 @@
-# Vue 3 + Typescript + Vite
+# (WIP) Easy Portfolio
+
+Original intention for a friend, currently not so easy 🤷‍♂️
